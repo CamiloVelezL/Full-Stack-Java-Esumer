@@ -1,0 +1,106 @@
+.oculto {
+    display: none;
+}
+
+.completada {
+    text-decoration: line-through; 
+    color: #888888; 
+}
+
+.error {
+    color: #D94B4B;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0; 
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.tareas {
+    background-color: #ededed; 
+    padding: 30px;
+    border-radius: 10px;
+    width: 500px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+    margin-top: 0;
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Formulario */
+form {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #999;
+    font-size: 16px;
+    font-style: italic;
+}
+
+
+#btn-agregar {
+    padding: 10px 25px;
+    background-color: #2ea3f2; 
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btn-agregar:hover {
+    background-color: #1c82c7;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 25px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    cursor: pointer; 
+    font-size: 16px;
+}
+
+li:hover {
+    background-color: #f0f0f0;
+}
+
+
+li button {
+    background-color: #d9534f; 
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+li button:hover {
+    background-color: #c9302c;
+}

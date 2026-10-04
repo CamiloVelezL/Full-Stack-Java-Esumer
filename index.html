@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller Integrador - Lista de Tareas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="tareas">
+        <h2>Mis tareas</h2>
+
+        <!-- Formulario para agregar tareas -->
+        <form id="form-tarea">
+            <input type="text" id="input-tarea" placeholder="Escribe una tarea...">
+            <button type="submit" id="btn-agregar">Agregar</button>
+        </form>
+        <p id="mensaje-error" class="error oculto">Escribe una tarea antes de agregarla</p>
+        <ul id="lista-tareas"></ul>
+    </div>
+
+    <!-- Enlace al archivo JavaScript (al final para que cargue el HTML primero) -->
+    <script src="js/app.js"></script>
+</body>
+</html>
